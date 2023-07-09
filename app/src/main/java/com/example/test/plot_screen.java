@@ -1,27 +1,14 @@
 package com.example.test;
-
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
-
-import android.content.Context;
-import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
-import android.view.View;
-
-
 import java.util.Random;
 import com.jjoe64.graphview.GraphView;
 import com.jjoe64.graphview.GridLabelRenderer;
 import com.jjoe64.graphview.LegendRenderer;
 import com.jjoe64.graphview.series.DataPoint;
 import com.jjoe64.graphview.series.LineGraphSeries;
-
-
-
 public class plot_screen extends AppCompatActivity {
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
@@ -33,13 +20,13 @@ public class plot_screen extends AppCompatActivity {
         GraphView graph =  (GraphView) findViewById(R.id.Graphic);
         LineGraphSeries<DataPoint> series=generator();
         series.setColor(Color.rgb(0,80,100));
-        series.setTitle("Что-то там.......");
+        series.setTitle("Line");
         series.setDrawDataPoints(true);
         series.setDataPointsRadius(5);
         series.setThickness(2);
 
         graph.addSeries(series);
-        graph.setTitle("График");
+        graph.setTitle("Graph");
         graph.setTitleTextSize(50);
         graph.setTitleColor(R.color.purple_500);
         graph.getViewport().setMinX(0.0);

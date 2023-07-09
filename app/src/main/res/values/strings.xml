@@ -2,6 +2,8 @@
     <string name="app_name">Test</string>
     <string name="go_out">Выйти</string>
     <string name="buttonname">Открыть график</string>
-    <string name="header">Приложение График</string>
-    <string name="nametoolbar">График</string>
+    <string name="header">Graph App</string>
+    <string name="nametoolbar">Graph</string>
+    <string name="open">Open</string>
+    <string name="exit">Exit</string>
 </resources>

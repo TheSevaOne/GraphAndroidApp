@@ -7,6 +7,7 @@
     tools:context=".MainActivity">
 
     <LinearLayout
+        android:focusable="true"
         android:id="@+id/linearLayout"
         android:layout_width="239dp"
         android:layout_height="143dp"
@@ -25,19 +26,19 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/purple_500"
-            android:text="@string/buttonname" />
+            android:text="@string/open"/>
 
         <Space
             android:layout_width="match_parent"
-            android:layout_height="46dp" />
+            android:layout_height="46dp"/>
 
         <Button
             android:textColor="@color/white"
-            android:id="@+id/kek"
+            android:id="@+id/exit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/purple_500"
-            android:text="@string/go_out" />
+            android:text="@string/exit" />
 
     </LinearLayout>
 
